@@ -1,5 +1,5 @@
-# Environment and Sustainability Grand Challenge - Team Repo
-Team repo for contributors to the Turing Environment and Sustainability Grand Challenge (E&S GC)
+# Environment and Sustainability Grand Challenge - Community Repo
+Commuity repo for contributors to the Turing Environment and Sustainability Grand Challenge (E&S GC)
 
 ## The Problem: 
 Briefly describe what issue you are trying to address with this material
