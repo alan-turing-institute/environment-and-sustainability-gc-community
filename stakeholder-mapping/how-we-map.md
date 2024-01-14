@@ -19,7 +19,7 @@ The complied data will be GDPR Personal and may hold reputational risk. Yhe raw 
 ### Analysis 
 <mark> This is all draft</mark>
 1. Download all sharepoint lists to csv
-2. Run code to create kumu elements and 
+2. Run code [sharepoint-to-kumu.py](./sharepoint-to-kumu.py) to create kumu elements and connections
 
 ### Ongoing use
 
@@ -28,4 +28,6 @@ The complied data will be GDPR Personal and may hold reputational risk. Yhe raw 
 ==How are we going to continue to use and develop this list? Inc feedback into TPS==
 
 <mark>'Interactions' list should be updated after each event (e.g. knowledge share, community call) to collect the attendees and their engagement levels. Could also be updated monthly with slack roundup to see who it=s active on there</mark>.
+
+Note there is validation on the company name new entries are not allowed to contain ",". This is because sharepoint uses "," as a delimiter and we need to replace this with "|" for kumu, so our code to move the data from sharepoint to kumu repalces "," with "|" and names containing "," get broken!
 
