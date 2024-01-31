@@ -25,9 +25,9 @@ import numpy as np
 import csv
 
 # where all our dicom folders are
-dataRoot = '/Users/cgouldvanpraag/Library/CloudStorage/OneDrive-TheAlanTuringInstitute/E&S Grand Challenge - Documents/WS1 Ecosystem/stakeholder-mapping/sharepoint-list-downloads'
+dataRoot = '/Users/cgouldvanpraag/Library/CloudStorage/OneDrive-TheAlanTuringInstitute/E&S Grand Challenge - Documents/WS1 Ecosystem/stakeholder-mapping/data-sources/sharepoint-list-downloads'
 
-sharepoint_date = '2024-01-09'
+sharepoint_date = '2024-01-30'
 filename_prefix = 'stakeholder-list-E&S-'
 filename_extension = '.csv'
 
@@ -116,10 +116,10 @@ data_elements['interaction-participant-active'] = data_elements['interaction-par
 data_elements['interaction-participant-presenter'] = data_elements['interaction-participant-presenter'].str.replace(',','|')
 data_elements['interaction-participant-leadership'] = data_elements['interaction-participant-leadership'].str.replace(',','|')
 
-data_elements['workstreams'] = data_elements['workstreams'].str.replace(',','|')
-data_elements['workstreams'] = data_elements['workstreams'].str.replace('"','')
-data_elements['workstreams'] = data_elements['workstreams'].str.replace('[','')
-data_elements['workstreams'] = data_elements['workstreams'].str.replace(']','')
+# data_elements['workstreams'] = data_elements['workstreams'].str.replace(',','|')
+# data_elements['workstreams'] = data_elements['workstreams'].str.replace('"','')
+# data_elements['workstreams'] = data_elements['workstreams'].str.replace('[','')
+# data_elements['workstreams'] = data_elements['workstreams'].str.replace(']','')
 
 # create a new column "type-what" as a copy of "type" for kumu filtering (kumu doesn't seemto like to work with "type" alone for colour etc. )
 data_elements['type-what'] = data_elements.loc[:, 'type']
@@ -161,10 +161,10 @@ data_people['affiliations'] = data_people['affiliations'].str.replace(',','|')
 data_people['affiliations-turing'] = data_people['affiliations-turing'].str.replace(',','|')
 data_people['projects'] = data_people['projects'].str.replace(',','|')
 
-data_people['workstreams'] = data_people['workstreams'].str.replace(',','|')
-data_people['workstreams'] = data_people['workstreams'].str.replace('"','')
-data_people['workstreams'] = data_people['workstreams'].str.replace('[','')
-data_people['workstreams'] = data_people['workstreams'].str.replace(']','')
+# data_people['workstreams'] = data_people['workstreams'].str.replace(',','|')
+# data_people['workstreams'] = data_people['workstreams'].str.replace('"','')
+# data_people['workstreams'] = data_people['workstreams'].str.replace('[','')
+# data_people['workstreams'] = data_people['workstreams'].str.replace(']','')
 
 # print(data_people[['affiliations']].to_string(index=False)) 
 # print(data_people[['affiliations-turing']].to_string(index=False)) 
@@ -231,7 +231,44 @@ print('writing data - complete')
 
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%
-# Kumu display settings:
+# Kumu display settings: 2024-01-30
+# @controls {
+#   top-left {
+#     search {}
+
+#     showcase {
+#       target: element;
+#       by: "interaction-participant-all";
+#       as: dropdown;
+#       multiple: true;
+#       default: select-none;
+#       mode: normal;
+#       label: "showcase by interaction-participant-all";
+#     }
+
+#     filter {
+#       target: element;
+#       by: "type-what";
+#       as: buttons;
+#       multiple: true;
+#       default: show-all;
+#       label: "filter by affiliation type";
+#     }
+#   }
+# }
+
+# @settings {
+#   template: stakeholder;
+#   element-scale: scale("size", 0.5, 3);
+#   element-color: categorize("type-what", neon2);
+#   element-shape: categorize("type-what");
+# }
+
+
+
+
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%
+# Kumu display settings: 2024-01-09
 # @controls {
 #   top-left {
 #     search {}
@@ -283,127 +320,3 @@ print('writing data - complete')
 
 
 
-
-
-# old code
-# # looping over each row in the people list using the index 'n'
-# print('kumu >> Creating affiliation and project connections for ' + str(len(data_people)) + ' people')
-# for index, n in data_people.iterrows():
-#     connections_name = pd.DataFrame(columns=['From', 'To', 'Direction'])
-    
-#     name = n["label"]
-#     print('kumu >> Processing person: ' + name)
-
-#     # create the data for the affiliation connections
-#     name_affiliation1 = n["Affiliation1"]
-#     name_department = n["Department/Group/Team/Project"]
-#     if name_affiliation1 == 'Alan Turing Institute' and isinstance(name_department,str):
-#         connections_name = connections_name._append({'From' : name, 'To' : name_department, 'Direction' : 'undirected'}, ignore_index = True)
-#     else:
-#         connections_name = connections_name._append({'From' : name, 'To' : name_affiliation1, 'Direction' : 'undirected'}, ignore_index = True)
-
-#     name_affiliation2 = n["Affiliation2"]
-#     if isinstance(name_affiliation2,str):
-#         connections_name = connections_name._append({'From' : name, 'To' : name_affiliation2, 'Direction' : 'undirected'}, ignore_index = True)
-
-#     name_affiliation3 = n["Affiliation3"]
-#     if isinstance(name_affiliation3,str):
-#         connections_name = connections_name._append({'From' : name, 'To' : name_affiliation3, 'Direction' : 'undirected'}, ignore_index = True)
-
-#     # create the data for the project connections
-#     name_project1 = n["ResearchProjects1"]
-#     if isinstance(name_project1,str):
-#         connections_name = connections_name._append({'From' : name, 'To' : name_project1, 'Direction' : 'undirected'}, ignore_index = True)
-
-#     name_project2 = n["ResearchProjects2"]
-#     if isinstance(name_project2,str):
-#         connections_name = connections_name._append({'From' : name, 'To' : name_project2, 'Direction' : 'undirected'}, ignore_index = True)
-
-#     name_project3 = n["ResearchProjects3"]
-#     if isinstance(name_project3,str):
-#         connections_name = connections_name._append({'From' : name, 'To' : name_project3, 'Direction' : 'undirected'}, ignore_index = True)
-
-#     name_project4 = n["ResearchProjects4"]
-#     if isinstance(name_project4,str):
-#         connections_name = connections_name._append({'From' : name, 'To' : name_project4, 'Direction' : 'undirected'}, ignore_index = True)
-
-#     # write out connections to combined data (if any connections were created)
-#     if not connections_all.empty:
-#         connections_all = pd.concat([connections_all,connections_name],ignore_index=True, axis=0)
-#     else:
-#         connections_all = connections_name
-#     # print(connections_all)
-#     print('kumu >> Number of connections: ' + str(len(connections_name)))
-
-# print(connections_all)
-
-# # looping over each row in the companies list using the index 'c'
-# print('kumu >> Creating affiliation connections for ' + str(len(data_companies)) + ' companies/organisations')
-# for index, c in data_companies.iterrows():
-#     connections_company = pd.DataFrame()
-#     company = c["label"]
-#     print('kumu >> Processing company/org: ' + company)
-
-#     # create the data for the affiliation connections
-#     company_affiliation1 = c["Affiliation1"]
-#     if isinstance(company_affiliation1,str):
-#         connections_company = connections_company._append({'From' : company, 'To' : company_affiliation1, 'Direction' : 'undirected'}, ignore_index = True)
-
-#     company_affiliation2 = c["Affiliation2"]
-#     if isinstance(company_affiliation2,str):
-#         connections_company = connections_company._append({'From' : company, 'To' : company_affiliation2, 'Direction' : 'undirected'}, ignore_index = True)
-
-#     company_affiliation3 = c["Affiliation3"]
-#     if isinstance(company_affiliation3,str):
-#         connections_company = connections_company._append({'From' : company, 'To' : company_affiliation3, 'Direction' : 'undirected'}, ignore_index = True)
-
-#     # write out connections to combined data (if any connections were created)
-#     if not connections_all.empty:
-#         connections_all = pd.concat([connections_all,connections_company],ignore_index=True, axis=0)
-#     else:
-#         connections_all = connections_company
-#     # print(connections_all)
-#     print('kumu >> Number of connections: ' + str(len(connections_company)))
-
-# # looping over each row in the projects list using the index 'p'
-# print('kumu >> Creating affiliation connections for ' + str(len(data_projects)) + ' projects')
-# for index, p in data_projects.iterrows():
-#     connections_project = pd.DataFrame()
-#     project = p["label"]
-#     print('kumu >> Processing project: ' + project)
-
-#     # create the data for the affiliation connections
-#     project_affiliation1 = p["Affiliation1"]
-#     if isinstance(project_affiliation1,str):
-#         connections_project = connections_project._append({'From' : project, 'To' : project_affiliation1, 'Direction' : 'undirected'}, ignore_index = True)
-
-#     project_affiliation2 = p["Affiliation2"]
-#     if isinstance(project_affiliation2,str):
-#         connections_project = connections_project._append({'From' : project, 'To' : project_affiliation2, 'Direction' : 'undirected'}, ignore_index = True)
-
-#     project_affiliation3 = p["Affiliation3"]
-#     if isinstance(project_affiliation3,str):
-#         connections_project = connections_project._append({'From' : project, 'To' : project_affiliation3, 'Direction' : 'undirected'}, ignore_index = True)
-    
-  
-#     # write out connections to combined data (if any connections were created)
-#     if not connections_all.empty:
-#         connections_all = pd.concat([connections_all,connections_project],ignore_index=True, axis=0)
-#     else:
-#         connections_all = connections_project
-#     # print(connections_all)
-#     print('kumu >> Number of connections: ' + str(len(connections_project)))
-
-# # Print elements and connections to xlsx
-# # elements_all.to_excel('/Users/cgouldvanpraag/Desktop/kumu-test.xlsx', sheet_name='elements', index=False)
-# # connections_all.to_excel('/Users/cgouldvanpraag/Desktop/kumu-test.xlsx', sheet_name='connections', index=False)
-
-
-# with pd.ExcelWriter(path_write) as writer:
-#     # use to_excel function and specify the sheet_name and index 
-#     # to store the dataframe in specified sheet
-#     elements_all.to_excel(writer, sheet_name="elements", index=False)
-#     connections_all.to_excel(writer, sheet_name="connections", index=False)
-
-# print('kumu >> Total number of elements: ' + str(len(elements_all)))
-# print('kumu >> Total number of connections: ' + str(len(connections_all)))
