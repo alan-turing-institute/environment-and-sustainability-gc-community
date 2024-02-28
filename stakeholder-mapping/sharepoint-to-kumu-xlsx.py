@@ -231,9 +231,31 @@ data_projects['direction'] = 'undirected'
 
 frames = [data_people, data_companies, data_projects]
 data_connections = pd.concat(frames)
+data_connections = data_connections.reset_index(drop=True)
 
 # replace NaN in 'to' with '[]'
 data_connections['to'] = data_connections['to'].fillna('[]')
+
+#fix some column names
+data_elements.rename(columns={'Created': 'created-date'}, inplace=True)
+data_elements.rename(columns={'Created B': 'created-by'}, inplace=True)
+data_elements.rename(columns={'Modified': 'modified-last-date'}, inplace=True)
+data_elements.rename(columns={'Modified B': 'modified-last-by'}, inplace=True)
+data_elements.rename(columns={'countr': 'country'}, inplace=True)
+
+# fix the sizes
+data_elements.loc[data_elements['type-what'] == 'Person', 'size'] = 1
+data_elements.loc[data_elements['type-what'] == 'Research insitute', 'size'] = 100
+data_elements.loc[data_elements['type-what'] == 'Public sector / Government body', 'size'] = 20
+data_elements.loc[data_elements['type-what'] == 'Private industry', 'size'] = 20
+data_elements.loc[data_elements['type-what'] == 'Non-profit', 'size'] = 20
+data_elements.loc[data_elements['type-what'] == 'Consortium', 'size'] = 35
+data_elements.loc[data_elements['type-what'] == 'Turing programme', 'size'] = 20
+data_elements.loc[data_elements['type-what'] == 'Project', 'size'] = 50
+
+
+
+
 
 print('writing data to:' + path_write_internal)
 with pd.ExcelWriter(path_write_internal) as writer:
@@ -253,27 +275,33 @@ an.fake_ids("label")
 
 data_elements_anon = data_elements
 
-data_elements_anon.rename(columns={'Fake_label': 'label-anon'})
+data_elements_anon.rename(columns={'Fake_label': 'label-anon'}, inplace=True)
 
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 # if type-what not = "person" set consent-kumu to "consent-public"
 data_elements_anon.loc[data_elements_anon['type-what'] != 'Person', 'consent-kumu'] = 'consent-public'
 
 # if type-what == "person" and consent-kumu == []; consent-kumu = "consent-none"
-data_elements_anon.loc[(data_elements['type-what'] == 'Person') & (data_elements_anon['consent-kumu'] == ''), 'consent-kumu'] = 'consent-none'
+data_elements_anon.loc[(data_elements_anon['type-what'] == 'Person') & (data_elements_anon['consent-kumu'] == ''), 'consent-kumu'] = 'consent-none'
 
-# Select the specified columns and assign them to a new DataFrame
-elements_consent_lookup = data_elements_anon[['label', 'consent-kumu', 'Fake_label']].copy()
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+# # Select the specified columns and assign them to a new DataFrame
+elements_consent_lookup = data_elements_anon[['label', 'consent-kumu', 'label-anon','type-what']].copy()
+
 
 data_connections_anon = data_connections[['from', 'to', 'direction']].copy()
 data_connections_anon['label-public'] = np.nan
 
 
-
 df1 = data_connections_anon
 df2 = elements_consent_lookup
 
-# Loop through df1 and find matching values in df2
+
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+# # Loop through df1 and find matching values in df2
 for index, row in df1.iterrows():
     print(index)
     print(df1.iloc[index]) #df1.at[index, 'label-public']
@@ -285,28 +313,57 @@ for index, row in df1.iterrows():
         if matching_row['consent-kumu'].values[0] == 'consent-none':
             print("Matching value in df2 for id", id_value, ":", "Consent is none")
             # Add the 'Fake-label' value to df1
-            df1.at[index, 'label-public'] = matching_row['Fake_label'].values[0]
+            df1.at[index, 'label-public'] = matching_row['label-anon'].values[0]
         elif matching_row['consent-kumu'].values[0] == 'consent-public':
             print("Matching value in df2 for id", id_value, ":", "Consent is public")
             df1.at[index, 'label-public'] = matching_row['label'].values[0]
         elif matching_row['consent-kumu'].values[0] == 'consent-pseudonymised':
             print("Matching value in df2 for id", id_value, ":", "Consent is pseudonymised")
-            df1.at[index, 'label-public'] = matching_row['Fake_label'].values[0]
+            df1.at[index, 'label-public'] = matching_row['label-anon'].values[0]
         else:
             print("Matching value in df2 for id", id_value, ":", "Consent is: ",matching_row['consent-kumu'].values[0])
-            break
     else:
         print("No matching value found in df2 for id", id_value)
 
+# %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 data_connections_anon = df1
 
-# redact identifable information from data_elements_anon
+# redact identifable information from data_elements_anon where no consent
 columns_identifiable = ['email', 'github', 'position', 'pronouns', 'url']
 data_elements_anon.loc[data_elements['consent-kumu'] == 'consent-none', columns_identifiable] = np.nan
 
-# redact opinions
+# delete opinion columns for everyone %**
 columns_opinions = ['how-to-engage','influence-over-programme','interaction-participant-active','interaction-participant-all','interaction-participant-leadership','interaction-participant-presenter','interactions-count','interest-in-programme','moe-level','notes']
-data_elements_anon.loc[data_elements_anon['consent-kumu'] == 'consent-none', columns_opinions] = np.nan
+data_elements_anon = data_elements_anon.drop(columns_opinions,axis=1)
+
+# get rid of boring columns %**
+columns_boring = ['created-date', 'created-by', 'modified-last-date', 'modified-last-by', 'url']
+data_elements_anon = data_elements_anon.drop(columns_boring,axis=1)
+
+
+
+# replace labels with label_anon where consent == none
+data_elements_anon.loc[data_elements_anon['consent-kumu'] == 'consent-public', 'label-anon'] = data_elements_anon['label']
+
+# rename
+data_elements_anon.rename(columns={'label-anon': 'label-public'}, inplace=True)
+
+# delete the old "label" and "from", replace with the anonymised values
+data_elements_anon = data_elements_anon.drop('label',axis=1)
+data_elements_anon.rename(columns={'label-public': 'label'}, inplace=True)
+
+data_connections_anon = data_connections_anon.drop('from',axis=1)
+data_connections_anon.rename(columns={'label-public': 'from'}, inplace=True)
+
+# and move the new ones to the first column (for kumu)
+cols = list(data_elements_anon.columns)
+cols.insert(0, cols.pop(cols.index('label')))
+data_elements_anon = data_elements_anon[cols]
+
+cols = list(data_connections_anon.columns)
+cols.insert(0, cols.pop(cols.index('from')))
+data_connections_anon = data_connections_anon[cols]
 
 # write out
 print('writing anonymised data to:' + path_write_public)
@@ -319,59 +376,6 @@ print('writing xlsx data for public map - complete')
 
 
 # #################
-
-
-# %%%%%%%%%%%%%%%%%%%%%%%%%%%
-# Kumu display settings: 2024-02-20
-
-# @controls {
-#   top-left {
-#     search {}
-
-#     filter {
-#       target: element;
-#       by: "type-what";
-#       as: dropdown;
-#       multiple: true;
-#       default: show-all;
-#       label: "filter by type";
-#     }
-
-#     showcase {
-#       target: element;
-#       by: "interaction-participant-all";
-#       as: dropdown;
-#       multiple: true;
-#       default: select-none;
-#       mode: normal;
-#       label: "showcase by interaction-participant-all";
-#     }
-
-#     showcase {
-#       target: element;
-#       by: "countr";
-#       as: dropdown;
-#       multiple: true;
-#       default: show-all;
-#       mode: normal;
-#       label: "showcase by country";
-#     }
-#   }
-# }
-
-# @settings {
-#   template: stakeholder;
-#   element-shape: categorize("type-what");
-#   element-scale: scale("size", 0.5, 3);
-#   element-color: categorize("type-what", Paired-inverted);
-# }
-
-
-
-
-
-
-
 
 
 
