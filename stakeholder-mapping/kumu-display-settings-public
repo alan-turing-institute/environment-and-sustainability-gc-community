@@ -46,9 +46,9 @@
       value: "GDPR STATEMENT:";
       margin: 0.5;
     }
-    
+
     text {
-      value: "Data in this map includes name, email address, web profiles, affiliations and names of research projects. The data were acquired through instutional knowledge and desk research. Individuals can choose to be identifiable, anonymous, or not appear on the public map. We also hold (but do not share) assessments of influence, engagement and relationship strategy. A Data Protection Assessment Process review for this project found the processing to be lawful and low risk. Data is stored on Turing approved servers, and by Kumu for Turing purposes and according to the Turing's instructions, under the restrictions of their DPA (https://kumu.io/gdpr). For the Turing's general privacy notice, including data retention policies, please see https://www.turing.ac.uk/privacy-policy";
+      value: "Data in this map includes names, email address, web profiles, affiliations and research projects. The data were acquired through instutional knowledge and desk research. Individuals can choose to be identifiable, anonymous, or not appear on the public map. We also hold (but do not share) assessments of influence, engagement and relationship strategy. A Data Protection Assessment Process review for this project found the processing to be lawful and low risk. Data is stored on Turing approved servers, and by Kumu for Turing purposes and according to the Turing's instructions, under the restrictions of their DPA (https://kumu.io/gdpr). For the Turing's general privacy notice, including data retention policies, please see https://www.turing.ac.uk/privacy-policy";
       text-align: right;
       width: 400;
       margin: 1;
@@ -64,12 +64,3 @@
   background-color: #F2F2F2;
 }
 
-/* project description */
-## Why are we building a stakeholder map?
-We are working to uncover people and groups who are interested in data science for environment and sustainability, both based in the UK and internationally. We have a commitment to support the growth in impact, transparency, diversity, and collaboration within this community, for the development and sharing of best practices for equitable research. 
-
-To achieve this, we need to understand the priorities of our community, what they care about and what infrastructure we can develop to support and facilitate their success. Importantly, we also need to identify people of groups who can and should contribute to the strategic direction setting of the community itself.
-
-**To do this, we need to know who the community are, and what messaging and processes we should use to engage with them.**
-
-## Why is this work important to us?
