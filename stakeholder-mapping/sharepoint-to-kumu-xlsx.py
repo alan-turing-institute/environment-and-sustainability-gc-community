@@ -30,7 +30,7 @@ import json
 # where all our data is
 dataRoot = '/Users/cgouldvanpraag/Library/CloudStorage/OneDrive-TheAlanTuringInstitute/E&S Grand Challenge - Documents/WS1 Ecosystem/stakeholder-mapping/data-sources/'
 
-sharepoint_date = '20240220'
+sharepoint_date = '20240228'
 filename_prefix = 'stakeholder-list-E&S-'
 filename_extension = '.csv'
 
@@ -195,7 +195,8 @@ data_people['to'] = data_people[['affiliations', 'affiliations-turing', 'project
 data_people['to'] = data_people['to'].str.replace(',[]','')
 data_people['to'] = data_people['to'].str.replace(',','|')
 # replace 'Alan Turing Institute|Turing-' with 'Turing-'
-data_people['to'] = data_people['to'].str.replace('Alan Turing Institute|Turing-','Turing-')
+# This was to make Turing affiliated people connected to their programme only. Think it's better to keep the direct Turing affiliation, for discoverability.
+# data_people['to'] = data_people['to'].str.replace('Alan Turing Institute|Turing-','Turing-')
 
 # rename 'label' to 'from'
 data_people = data_people.rename(columns={'label': 'from'})
