@@ -88,7 +88,7 @@ Successful advocacy of our activities in all sectors will encourage broad and im
 ### Category: Building a culture of “Team Turing” and demonstration of our stated values
 ### Target date: e.o. May 2024
 ### Activity
-- Aligning and operationalising ways of working to support engagement make involvement of different core capabilities, research teams and business teams within the GC.
+- Aligning and operationalising ways of working to support engagement with and involvement of different core capabilities, research teams and business teams within the GC.
 - Include RACI matricies where approriate.
 
 ### Value
