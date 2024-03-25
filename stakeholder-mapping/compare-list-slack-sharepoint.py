@@ -70,27 +70,35 @@ missing_person_list = []
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 # # Loop through df1 and find matching values in df2
-print("Looking for matching names from (reference) ",filename_slack_list, " in (comparison) ", filename_read_people)
+print("Looking for matching email addresses from (reference) ",filename_slack_list, " in (comparison) ", filename_read_people)
 for index, row in df1.iterrows():
     # print(index)
     # print(df1.iloc[index]) #df1.at[index, 'label-public']
-    id_value = row['fullname']
+    id_name = row['fullname']
     id_email = row['email']
-    matching_row = df2[df2['name-person'] == id_value]
-    if not matching_row.empty:
-        match_sharepoint_ID = matching_row['ID'].values[0]
-        print("Matching name in sharepoint for slack member:", id_value, " @ sharepointID", match_sharepoint_ID)
+    print('- PROCESSING: email-slack: ',id_email, '; name-slack: ', id_name)
+    if index == 485:
+        print('Found A Fuller')
+    matching_row_email = df2[df2['email'] == id_email]
+    if not matching_row_email.empty:
+        match_sharepoint_ID = matching_row_email['ID'].values[0]
+        print("- Found match for email-slack: ", id_email, "; name-slack: ", id_name," @ sharepointID", match_sharepoint_ID)
     else:
-        # missing_person = missing_person.append({'slack-person-missing-from-sharepoint': id_value}, ignore_index=True)
-        # missing_person = missing_person.append({'fullname': id_value, 'slack-email': id_email}, ignore_index=True)
-        missing_person_list.append([id_value, id_email])
-        print("***No Matching name in sharepoint for slack member:", id_value, " ***")
+        matching_row_name = df2[df2['name-person'] == id_name]
+        if not matching_row_name.empty:
+            match_sharepoint_ID = matching_row_name['ID'].values[0]
+            email_sp = matching_row_name['email'].values[0]
+            missing_person_list.append([id_name, id_email,1,email_sp])
+            print("- Found match for name-slack: ", id_name, "; email-sp: ", email_sp," @ sharepointID", match_sharepoint_ID)
+        else:
+            missing_person_list.append([id_name, id_email, np.nan,np.nan])
+            print("** WARNING: No match found for email-slack: ", id_email, " or name-slack: ",id_name)
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         
 # Convert missing_person list to DataFrame
 # missing_person_df = pd.DataFrame({'slack-person-missing-from-sharepoint': missing_person})
-missing_person = pd.DataFrame(missing_person_list, columns=['slack-person-missing-from-sharepoint', 'slack-email'])
+missing_person = pd.DataFrame(missing_person_list, columns=['slack-person-missing-from-sharepoint', 'slack-email','sp-already-on','sp-email'])
 
 print("Missing Persons:")
 print(missing_person)
