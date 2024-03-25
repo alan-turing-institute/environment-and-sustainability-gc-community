@@ -8,7 +8,7 @@
     - Administrators should request link from Cass to access repsponses.
 - Email addresses form the form (or otherwise collected) should be added to the workspace following this workflow:
 
-Admins can watch a [recoding of the process to add to new members to the workspace and review invitation status](https://thealanturininstitute-my.sharepoint.com/:v:/g/personal/cgouldvanpraag_turing_ac_uk/EZH_BzHY6xpFiWBAdDtYKfsBHMz2tIopFjY4HKs2txAALw?e=Lk8sD1).
+Admins can watch a [1.5 min screen recoding of the below workflow](https://thealanturininstitute-my.sharepoint.com/:v:/g/personal/cgouldvanpraag_turing_ac_uk/EZH_BzHY6xpFiWBAdDtYKfsBHMz2tIopFjY4HKs2txAALw?e=Lk8sD1).
 
 1. In slack, click on the Turing enterprise then "invite people to..."
 2. Select the Environment and Sustainability workspace
