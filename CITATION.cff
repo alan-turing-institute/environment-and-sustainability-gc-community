@@ -1,0 +1,29 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Turing Environment and Sustainability Grand Challenge
+  Community Open Source Project Pages
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Cassandra
+    family-names: Gould van Praag
+    email: cgouldvanpraag@turing.ac.uk
+    affiliation: Alan Turing Institute
+    orcid: 'https://orcid.org/0000-0002-8584-4637'
+  - {}
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.11167968
+repository-code: >-
+  https://github.com/alan-turing-institute/environment-and-sustainability-gc-community
+abstract: >-
+  This repository contains open materials developed by and
+  for the E&S GC
+license: CC-BY-4.0
+version: v1.0.0
+date-released: '2024-05-09'
