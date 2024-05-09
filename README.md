@@ -1,14 +1,17 @@
 # Environment and Sustainability Grand Challenge - Community Repo
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11167969.svg)](https://doi.org/10.5281/zenodo.11167969)
+
 Welcome to the Community repo for the Turing Environment and Sustainability Grand Challenge (E&S GC). This repository contains open materials developed by and for the E&S GC. We invite you to review our activities and contribute where you can!
 
-## The Problem: 
+## The Problem 
 High-impact environmental events such as heatwaves, flooding and droughts are increasing in both frequency and magnitude. This threatens our planet, including the four billion people who live in cities and the rich biodiverse natural ecosystems from which life on earth relies on. 
 
 To act on this we need to slow the pace of global heating, predict and mitigate climate impacts, and provide clear evidence to develop national and international policy to meet net zero targets.  
 
 **We need to rapidly develop and disseminate best practice for reproducible, ethical and collaborative data science, along with pathways for impact, leadership and community-lead mission development.**
 
-## The Solution: 
+## The Solution
 **At The Alan Turing Institute, we believe collaborative data science to be one of the most impactful ways to address this challenge, and that collaborative data science is best achieved through open research community management.**
 
 ### What is open research community management?
@@ -58,10 +61,10 @@ We want to grow awareness of our work to identify as many individuals as possibl
 
 **If you know already that you have the capacity and motivation for some degree of leadership or direction setting in this community, please email our RCM so we can learn more about your activities and ambitions: Contact cgouldvanpraag@turing.ac.uk**
 
-## Who are we?: 
+## Who are we?
 This material has been prepared by the Turing E&S GC Senior Research Community Manager, [Cassandra Gould van Praag](http://turing.ac.uk/people/researchers/cassandra-gould-van-praag). Cassandra is supported under the leadership of the Turing [Tools, Practices and Systems Programme](https://www.turing.ac.uk/research/research-programmes/tools-practices-and-systems). The delivery of all community work is supported by the leadership and operations team of the E&S GC.
 
-## Contact us: 
+## Contact us
 Contact our RCM directly to ask questions, strategise and daydream about possibilities - I love to  hear about your work and think of ways we can support each other! Email cgouldvanpraag@turing.ac.uk
 
 ### Slack
@@ -70,6 +73,14 @@ You can request to be added to the Turing E&S Slack when you [add yourself to ou
 In slack, please introduce yourself on the #welcome channel, and feel free to send a direct message to Cass @cassgvp!
 
 ## Acknowledgements and citation
+Please cite this material as below:
+
+> Cassandra Gould van Praag. (2024). alan-turing-institute/environment-and-sustainability-gc-community. Zenodo. https://doi.org/10.5281/zenodo.11167968
+
+As contributors to this material grow, we will discuss and and agree a convention for attribution in the citation following the conventions of The Turing Way.
+
+### Acknowledgements
 This material has been prepared incorporating guidance and best practice from The Turing Way
 
 > The Turing Way Community. (2022). The Turing Way: A handbook for reproducible, ethical and collaborative research (1.0.2). Zenodo. https://doi.org/10.5281/zenodo.7625728
+
