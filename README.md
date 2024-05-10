@@ -29,9 +29,8 @@ The following activities are form the E&S specific objectives of our RCM ([Cassa
 - **Activity**: Use systematic stakeholder mapping to record/identify stakeholders in the E&S GC across all sectors, and classify them according to engagement and community readiness. Develop strategy for growth and engagement in targeted areas. 
 - **Value**: An effective community strategy will enable the design and delivery of impactful activities associated with the E&S GC, which are well-grounded in the needs of the community. Meaningful engagement will add to the sustainability of the GC and community activities through increased stakeholder buy-in, equitable participation, and the development of leadership opportunities. 
 
-**UPDATE: Our [public stakholder map](https://cassgvp.kumu.io/alan-turing-institute-environment-and-sustainability) is now live! We invite you to explore who we are and add yourself to the map!**
+**UPDATE: Review progress against this objective in pur [community strategy doc](./roadmap/community-strategy.md)**
 
-![Turing E&S Stakeholder Map, with examples of the questions we can ask using this data](./images/kumu-public-presentation-cover.png)
 
 ## Objective 2: Community resources
 - **Activity**: Develop and share E&S community documentation and activities to develop plans for embedding open science and reproducibility in E&S.
@@ -72,7 +71,7 @@ You can request to be added to the Turing E&S Slack when you [add yourself to ou
 
 In slack, please introduce yourself on the #welcome channel, and feel free to send a direct message to Cass @cassgvp!
 
-## Acknowledgements and citation
+## Citation and acknowledgements
 Please cite this material as below:
 
 > Cassandra Gould van Praag. (2024). alan-turing-institute/environment-and-sustainability-gc-community. Zenodo. https://doi.org/10.5281/zenodo.11167968
@@ -80,7 +79,11 @@ Please cite this material as below:
 As contributors to this material grow, we will discuss and and agree a convention for attribution in the citation following the conventions of The Turing Way.
 
 ### Acknowledgements
-This material has been prepared incorporating guidance and best practice from The Turing Way
+This material has been prepared incorporating guidance and best practice from The Turing Way.
 
 > The Turing Way Community. (2022). The Turing Way: A handbook for reproducible, ethical and collaborative research (1.0.2). Zenodo. https://doi.org/10.5281/zenodo.7625728
+
+Training in Open Research Community Management was delivered through the Open Life Sciences "Open Seeds" programme.
+
+> Freeberg, M., Psomopoulos, F., Pilvar, D., Batut, B., & Community, O. L. S. (2023). Open seeds by OLS: A mentoring & training program for open science ambassadors. https://f1000research.com/posters/12-710
 
