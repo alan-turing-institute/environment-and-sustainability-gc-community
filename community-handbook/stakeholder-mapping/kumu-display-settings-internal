@@ -1,0 +1,50 @@
+@controls {
+  top-left {
+    search {}
+
+    filter {
+      target: element;
+      by: "type-what";
+      as: dropdown;
+      multiple: true;
+      default: show-all;
+      label: "filter by type";
+    }
+
+    filter {
+      target: element;
+      by: "consent-kumu";
+      as: dropdown;
+      multiple: true;
+      default: show-all;
+      label: "filter by consent for mapping";
+    }
+
+    showcase {
+      target: element;
+      by: "interaction-participant-all";
+      as: dropdown;
+      multiple: true;
+      default: select-none;
+      mode: normal;
+      label: "showcase by interaction-participant-all";
+    }
+
+    showcase {
+      target: element;
+      by: "country";
+      as: dropdown;
+      multiple: true;
+      default: show-all;
+      mode: normal;
+      label: "showcase by country";
+    }
+  }
+}
+
+@settings {
+  template: stakeholder;
+  element-shape: categorize("type-what");
+  element-scale: scale("size", 0.5, 3);
+  element-color: categorize("type-what", #37A02D, #6A3D9A, #FEBE6F, #FF7F07, #FEF497, #2079B4, #CAB2D5, #E31A1C);
+}

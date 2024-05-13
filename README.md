@@ -36,6 +36,11 @@ The following activities are form the E&S specific objectives of our RCM ([Cassa
 - **Activity**: Develop and share E&S community documentation and activities to develop plans for embedding open science and reproducibility in E&S.
 - **Value**: High quality community documentation and engagement opportunities will support community members to meaningfully engage with the E&S GC, and encourage sustained participation through positive and equitable experiences. 
 
+**UPDATE: Build a local copy of the community handbook!** Pull this repo, then:
+1. `pip install -r community-handbook/requirements.txt`
+2. `jupyter-book build community-handbook/`
+3. Follow the onscreen instructions to view the html for the book. I use "paste this line directly into your browser bar:" and select `index.html`
+
 ## Objective 3: Community engagement in Y2 mission development
 - **Activity**:Leading the community engagement and implementation plan to develop E&S missions and roadmap for the next funding period (Y2).
 - **Value**: A community-informed mission will enable the identification of areas of strength and ambition for research, and potential for coordinated impact.
@@ -86,4 +91,6 @@ This material has been prepared incorporating guidance and best practice from Th
 Training in Open Research Community Management was delivered through the Open Life Sciences "Open Seeds" programme.
 
 > Freeberg, M., Psomopoulos, F., Pilvar, D., Batut, B., & Community, O. L. S. (2023). Open seeds by OLS: A mentoring & training program for open science ambassadors. https://f1000research.com/posters/12-710
+
+The community handbook structure was modelled on the [TRIC-DT knowledge commons](https://github.com/alan-turing-institute/tric-dt/issues/6)
 
