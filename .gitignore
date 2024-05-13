@@ -4,13 +4,16 @@
 .secrets/*
 
 # OS dependent metadata files
-.DS_Store
+*.DS_Store
 
 # Large, binary files
 # workshops/boost-research-reproducibility-binder/workshop-presentations/*pptx
 
 # Compiled files
 **/__pycache__/
+
+# handbook build files
+/community-handbook/_build
 
 # IDE configs
 .vscode/settings.json
