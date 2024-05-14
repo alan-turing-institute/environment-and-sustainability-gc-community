@@ -36,11 +36,18 @@ The following activities are form the E&S specific objectives of our RCM ([Cassa
 - **Activity**: Develop and share E&S community documentation and activities to develop plans for embedding open science and reproducibility in E&S.
 - **Value**: High quality community documentation and engagement opportunities will support community members to meaningfully engage with the E&S GC, and encourage sustained participation through positive and equitable experiences. 
 
-**UPDATE: Build a local copy of the community handbook!** Pull this repo, then:
-1. `pip install -r community-handbook/requirements.txt`
-2. `jupyter-book build community-handbook/`
-3. Follow the onscreen instructions to view the html for the book. I use "paste this line directly into your browser bar:" and select `index.html`
-4. Test deploy! <mark>getting things working with https://jupyterbook.org/en/stable/start/publish.html#publish-your-book-online-with-github-pages</mark>... more testing
+**UPDATE: To push changes to the handbook:** 
+*Admin should ensure that the github pages settings for the repo are set to build with the source `branch`; branch `gh-pages` `/docs`.*
+
+Pull this repo and make your edits, then:
+1. `pip install -r docs/requirements.txt`
+2. `jupyter-book build docs`
+3. Follow the onscreen instructions to view a local copy of the html for the book. I use "paste this line directly into your browser bar:" address. Check everything looks good!
+4. `ghp-import -n -p -f docs/_build/html` to make a branch called `gh-pages` and push the newly built HTML to the `gh-pages` branch.
+5. `git add .` add all changes to the staging area
+6. `git commit -m "[commit message for your changes]"` add a relevant commit message for the changes made
+7. `git push`
+8. View the updated handbook at [https://alan-turing-institute.github.io/environment-and-sustainability-gc-community/](https://alan-turing-institute.github.io/environment-and-sustainability-gc-community/)
 
 ## Objective 3: Community engagement in Y2 mission development
 - **Activity**:Leading the community engagement and implementation plan to develop E&S missions and roadmap for the next funding period (Y2).
