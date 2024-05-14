@@ -1,0 +1,61 @@
+format: jb-book
+root: docs/intro
+parts:
+- caption: Operations
+  chapters:
+  - file: docs/operations/overview.md
+    title: Overview
+  - file: docs/operations/structure.md
+    title: Operational Structure
+  - file: docs/operations/roles-responsibilities.md
+    title: Roles and Responsibilities
+  - file: docs/operations/governance.md
+    title: Governance
+  - file: docs/operations/governance/meetings.md
+    title: Standing meetings
+  - file: docs/operations/governance/reporting.md
+    title: Reporting
+  - file: docs/operations/governance/finance.md
+    title: Finance
+  - file: docs/operations/comms/comms.md
+    title: Communications
+- caption: Community Management
+  chapters:
+  - file: docs/strategy/community-strategy.md
+    title: Community strategy
+  - file: docs/strategy/objectives-srcm.md
+    title: Roadmap
+  - file: docs/stakeholder-mapping/shm-intro.md
+    title: Stakeholder mapping
+    sections:
+    - file: docs/stakeholder-mapping/why-map.md
+      title: Why we map
+    - file: docs/stakeholder-mapping/how-we-map.md
+      title: How we map
+- caption: Projects
+  chapters:
+  - file: docs/projects/index
+    title: List of Projects
+- caption: Resources
+  chapters:
+  - file: docs/resources/index
+    title: List of Resources
+- caption: Community News and Events
+  chapters:
+  - file: docs/news/news
+    title: E&S GC Community News
+  - file: docs/news/events
+    title: Events List
+- caption: Ways of Working
+  chapters:
+  - file: docs/ways-of-working/index
+    title: Our Ways of Working
+  - file: docs/ways-of-working/context
+    title: Context and Background
+  - file: docs/ways-of-working/values
+    title: Values and Principles
+    sections:
+      - file: docs/ways-of-working/values/research-community
+        title: Research Community Management
+      - file: docs/ways-of-working/values/research-application
+        title: Research Application Management
