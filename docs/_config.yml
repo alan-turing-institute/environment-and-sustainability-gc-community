@@ -1,9 +1,9 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Turing Environment and Sustainability Grand Challenge
+title: Turing Environment and Sustainability Community Pages
 author: Turing E&S GC Community
-logo: logo.png
+logo: "./assets/images/logo-book.png"
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
