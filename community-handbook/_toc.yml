@@ -25,7 +25,7 @@ parts:
     title: Community strategy
   - file: strategy/objectives-srcm.md
     title: Roadmap
-  - file: stakeholder-mapping/
+  - file: stakeholder-mapping/shm-intro.md
     title: Stakeholder mapping
     sections:
     - file: stakeholder-mapping/why-map.md

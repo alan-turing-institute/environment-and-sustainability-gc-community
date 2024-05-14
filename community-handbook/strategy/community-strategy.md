@@ -15,17 +15,17 @@ An effective community strategy will enable the design and delivery of impactful
 
 Such a strategy will enable the GC programme to connect with the right people at the right time, and collaborate with them in line with best practice for open, inclusive and reproducible research. This meaningful engagement will add to the sustainability of the GC and community activities through increased stakeholder buy-in and equitable participation.  -->
 
-**Contents**
+<!-- **Contents**
 1. [Mission, vision, values of the GC](#gc-mission-vision-and-values)
 1. [Strategy framework](#strategy-framework)
 2. [Diagnosis (baseline)](#diagnosis---baseline-at-the-start-of-the-gc)
 3. [Design](#design)
 4. [Execute (initiatives)](#execute-initiatives)
-5. Empower (embedding the strategy)
+5. Empower (embedding the strategy) -->
 
 
 ## GC Mission, vision and values
-- Mission of the GC to "harness knowledge to best effect [...] maximise the usefulness of our existing observations [...] leverage solutions and ideas seamlessly from across disciplines [...] bridge and integrate data and deploy solutions in a timely manner to help secure our planet for future generations." ([Turing E&S GC website](https://www.turing.ac.uk/research/environment-and-sustainability)) ==note this mission need to be stated more explictly on the website and our materials==
+- Mission of the GC to "harness knowledge to best effect [...] maximise the usefulness of our existing observations [...] leverage solutions and ideas seamlessly from across disciplines [...] bridge and integrate data and deploy solutions in a timely manner to help secure our planet for future generations." ([Turing E&S GC website](https://www.turing.ac.uk/research/environment-and-sustainability)) <mark>note this mission need to be stated more explictly on the website and our materials</mark>
 
 
 ## Strategy framework
@@ -62,8 +62,7 @@ At the start of the GC, there was no framework for measuring community health.
 
 In the RCM team, we consider "commmunity health" to cover factors such as engagement level, degree of contribution and trust within the community. We can also consider factors such as community-initiated collaboration or organisation into interest groups as indicators of autonomy (self-organising to serve the interests of the community) and sustainability of the community. These factors are considered and against the a "mountain of engagement" model, developed by Mozilla and shared via [Open Life Sciences](https://openlifesci.org). 
 
-![mountain of engagement](../images/moe.png)
-
+![mountain of engagement](/community-handbook/assets/images/)
 
 ## Design 
 ### Community Mission, vision and values
@@ -80,7 +79,12 @@ Our first efforts have been to capture and collate members of the groups outline
 
 Our [public stakholder map](https://cassgvp.kumu.io/alan-turing-institute-environment-and-sustainability) is now live. 
 
-![Turing E&S Stakeholder Map, with examples of the questions we can ask using this data](../images/kumu-public-presentation-cover.png)
+![Turing E&S Stakeholder Map, with examples of the questions we can ask using this data](../assets/images/kumu-public-presentation-cover.png)
+
+<mark>Embedded map</mark>
+<iframe src="https://embed.kumu.io/9fb9ba9e6054846cf1ecbbf76be4a978" width="940" height="600" frameborder="0"></iframe>
+
+
 
 ### Community personas
 
