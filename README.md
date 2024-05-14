@@ -37,7 +37,7 @@ The following activities are form the E&S specific objectives of our RCM ([Cassa
 - **Value**: High quality community documentation and engagement opportunities will support community members to meaningfully engage with the E&S GC, and encourage sustained participation through positive and equitable experiences. 
 
 **UPDATE: To push changes to the handbook:** 
-*Admin should ensure that the github pages settings for the repo are set to build with the source `branch`; branch `gh-pages` `/docs`.*
+*Admin should ensure that the github pages settings for the repo are set to build with the source `branch`; branch `gh-pages` `/(root)`.*
 
 Pull this repo and make your edits to files in `/docs`, then:
 1. `pip install -r docs/requirements.txt`
