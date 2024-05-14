@@ -1,6 +1,6 @@
 # Welcome to the Turing Environment and Sustainability Community Pages
 
-![](assets/images/hero.png)
+![hero image](./assets/images/hero.png)
 
 This book contains a wide variety of sections about the activities, news and events, structure, and ways of working, related to the Turing Environment and Sustainability Community Project Pages.
 

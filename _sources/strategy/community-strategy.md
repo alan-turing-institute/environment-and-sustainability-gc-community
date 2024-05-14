@@ -62,7 +62,7 @@ At the start of the GC, there was no framework for measuring community health.
 
 In the RCM team, we consider "commmunity health" to cover factors such as engagement level, degree of contribution and trust within the community. We can also consider factors such as community-initiated collaboration or organisation into interest groups as indicators of autonomy (self-organising to serve the interests of the community) and sustainability of the community. These factors are considered and against the a "mountain of engagement" model, developed by Mozilla and shared via [Open Life Sciences](https://openlifesci.org). 
 
-![mountain of engagement](/community-handbook/assets/images/)
+![mountain of engagement](../assets/images/moe.png)
 
 ## Design 
 ### Community Mission, vision and values
