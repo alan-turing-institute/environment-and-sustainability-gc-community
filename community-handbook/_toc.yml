@@ -1,5 +1,5 @@
 format: jb-book
-root: docs/intro
+root: docs/index
 parts:
 - caption: Operations
   chapters:
