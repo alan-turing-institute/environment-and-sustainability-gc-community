@@ -40,7 +40,7 @@ The following activities are form the E&S specific objectives of our RCM ([Cassa
 1. `pip install -r community-handbook/requirements.txt`
 2. `jupyter-book build community-handbook/`
 3. Follow the onscreen instructions to view the html for the book. I use "paste this line directly into your browser bar:" and select `index.html`
-4. Test deploy!
+4. Test deploy! <mark>getting things working with https://jupyterbook.org/en/stable/start/publish.html#publish-your-book-online-with-github-pages</mark>
 
 ## Objective 3: Community engagement in Y2 mission development
 - **Activity**:Leading the community engagement and implementation plan to develop E&S missions and roadmap for the next funding period (Y2).
