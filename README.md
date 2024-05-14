@@ -39,7 +39,7 @@ The following activities are form the E&S specific objectives of our RCM ([Cassa
 **UPDATE: To push changes to the handbook:** 
 *Admin should ensure that the github pages settings for the repo are set to build with the source `branch`; branch `gh-pages` `/docs`.*
 
-Pull this repo and make your edits, then:
+Pull this repo and make your edits to files in `/docs`, then:
 1. `pip install -r docs/requirements.txt`
 2. `jupyter-book build docs`
 3. Follow the onscreen instructions to view a local copy of the html for the book. I use "paste this line directly into your browser bar:" address. Check everything looks good!
@@ -48,6 +48,8 @@ Pull this repo and make your edits, then:
 6. `git commit -m "[commit message for your changes]"` add a relevant commit message for the changes made
 7. `git push`
 8. View the updated handbook at [https://alan-turing-institute.github.io/environment-and-sustainability-gc-community/](https://alan-turing-institute.github.io/environment-and-sustainability-gc-community/)
+
+Note there is a workflow [book.yml](/.github/workflows/book.yml) I've tried to get working for this, but haven't managed to crack it yet! It is currently [disabled in the repo settings](https://docs.github.com/en/actions/using-workflows/disabling-and-enabling-a-workflow#disabling-a-workflow)
 
 ## Objective 3: Community engagement in Y2 mission development
 - **Activity**:Leading the community engagement and implementation plan to develop E&S missions and roadmap for the next funding period (Y2).
