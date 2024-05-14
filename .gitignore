@@ -13,7 +13,7 @@
 **/__pycache__/
 
 # handbook build files
-/community-handbook/_build
+# /community-handbook/_build
 
 # IDE configs
 .vscode/settings.json
