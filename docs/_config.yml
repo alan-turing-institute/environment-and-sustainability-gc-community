@@ -3,7 +3,7 @@
 
 title: Turing Environment and Sustainability Community Pages
 author: Turing E&S GC Community
-logo: "assets/images/logo-book.png"
+# logo: "assets/images/logo-book.png"
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
