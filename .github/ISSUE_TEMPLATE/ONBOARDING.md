@@ -1,5 +1,5 @@
 ---
-name: "\U+1F680 Onboarding"
+name: "\U1F680 Onboarding"
 about: [WIP] Checklist for onboarding new members to the Turing E&S GC Community
 title:
 labels:
