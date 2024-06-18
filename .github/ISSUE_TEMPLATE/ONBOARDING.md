@@ -1,8 +1,9 @@
 ---
-name: "\U1F680 Onboarding"
-about: Checklist for onboarding new members to the Turing E&S GC Community
+name: "\u2728 General"
+about: Have suggestions and ideas?
 title:
 labels:
+assignees: ''
 
 ---
 
