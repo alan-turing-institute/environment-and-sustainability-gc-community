@@ -1,5 +1,5 @@
 ---
-name: "\u2728 General"
+name: "\u2728 Onboarding"
 about: Have suggestions and ideas?
 title:
 labels:
