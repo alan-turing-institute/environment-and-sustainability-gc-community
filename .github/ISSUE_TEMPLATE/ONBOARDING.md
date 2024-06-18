@@ -1,5 +1,5 @@
 ---
-name: "\U0001F4DA Onboarding"
+name: Onboarding
 about: [WIP] Checklist for onboarding new members to the Turing E&S GC Community
 title:
 labels:
