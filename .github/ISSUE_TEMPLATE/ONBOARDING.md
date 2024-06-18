@@ -1,6 +1,6 @@
 ---
 name: "\U1F680 Onboarding"
-about: Checklist for onboarding new members to the community
+about: "[WIP] Checklist for onboarding new members to the E&S Community"
 title:
 labels:
 assignees: ''
