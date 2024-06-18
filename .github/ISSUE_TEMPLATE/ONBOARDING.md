@@ -1,5 +1,5 @@
 ---
-name: "\U1F680 Onboarding"
+name: "🚀 Onboarding"
 about: "[WIP] Checklist for onboarding new members to the E&S Community"
 title:
 labels:
