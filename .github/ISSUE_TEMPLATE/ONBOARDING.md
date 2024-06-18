@@ -1,5 +1,5 @@
 ---
-name: "\u1F680 Onboarding"
+name: "\U1F680 Onboarding"
 about: Checklist for onboarding new members to the community
 title:
 labels:
