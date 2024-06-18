@@ -1,11 +1,12 @@
 ---
-name: Onboarding
-about: [WIP] Checklist for onboarding new members to the Turing E&S GC Community
+name: "\u2728 General-test"
+about: Have suggestions and ideas?
 title:
 labels:
 assignees: ''
 
 ---
+
 <!-- This is a work-in-progress (WIP) issue template which should be created (and completed!) for each new person who wants to connect!  -->
 
 # Everyone
