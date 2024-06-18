@@ -1,6 +1,6 @@
 ---
 name: "\u2728 Onboarding"
-about: Have suggestions and ideas?
+about: Checklist for onboarding new members to the community
 title:
 labels:
 assignees: ''
