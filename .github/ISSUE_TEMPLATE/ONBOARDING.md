@@ -1,6 +1,6 @@
 ---
 name: "\u2728 Onboarding"
-about: Have suggestions and ideas?
+about: [WIP] Have suggestions and ideas?
 title:
 labels:
 assignees: ''
