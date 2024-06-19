@@ -31,6 +31,106 @@ description:
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
 
+# Meeting yyyy-mm-dd
+## Attendees
+## Apologies
+## Notes
+- Hard to know how we're (CEH) fitting into things
+- Feel like we've been less involved in the discussions around the GC
+- Aim was to provide some steer
+- Turing Fellow, but not involved in any discussion about anything
+- Was not ht ecase before - felt like I was ingaged
+    - Interviewing
+    - Turing fellow reviews
+    - Doing my bit, helping Turing get where it want's to go 
+- GC discussion
+    - approach was: ASG Jon didn't claim knowledge of the environmental area
+    - Scott worked with the partner insitutes, becasuwe we have access to data, knowledge of the broad research requirement, capacity for data science and partnership increasing capacity/skills, linked with methods dev. Our own funding to take forward.
+    - Matt as key contact, but doens't have muich knowledge of biodiveristy
+    - Massive amount of activity in BD - National monitoring and capability, a lot of AI work (AMBER = CEH)
+    - Rationalle - partners were;nt contributing (funding, recognition) - hope that wasn't thought of us - we were putting in leg work and research => frustrating
+    - AIBDM - Matt picked up when Jon Siddorn stepped back - totally outside his interest, but did it to make things work - Post docs empliyed (Thjis), working well
+    - The plug pulled, last minute, including support we could give to Thijs - poor way to treat him - Matt put in a lot of work - Marc and Scott agreed they will carry on 
+    - Understand that they want to wait, but seems crazy when it was well planned and people were employed
+    - Worry about how people are being treated
+    - CEH money pulled - £350k pull was. a massive impact on their finances
+    - Talked about whether they should ever partner again - not a lot of trust
+    - Projects thrown at you last minute
+    - Not felt very well planned or strategic
+    - Agreed an upade of the collaboration agreement
+    - No one else at Turing was looking after Thijs. Worried that Noushin would have no-one looking after their interest
+
+- How would you like the GC to be operating
+    - When Mission are running - plan to allow people to discuss how they can contribute
+    - What we've got to offer
+    - Can't just tell us what to do
+    - Knowledge of what is appropriate or not appropriate
+    - Scott and Marc don;t know about Hydrology, they should be seeking experts
+    - Emulators might not be appropriate in this area
+    - Marc said he wan't to focus on less generic areas, more applied, and always ways to link up
+    - Needs a lot more bottum up and longer term thinking - requirements and methids in different domains, and how it can fit together (CEH work was not included)
+
+- What would you need in place to contribute?
+    - Know where want things to go
+    - forums for discussion
+    - More in-person meetings
+        - Information disemination takes longer
+    - Not just Matt as Turing lead (he doesn't know about diversity) - but he knows about what else goes on at CEH, so can connect people
+    - Biodiversity - included time for David Roy and others to be involved, and they were never asked
+    - Haven't been invited to previous researcher meetings - have been now
+    - Marc's short update meeting - useful to get his thoughts, but needs to be more discussion
+- Biodiversity work - said going to get someone else in to lead it - suprised that they can advertyise it with a blank slate
+    - Little need for "short to medium term forcasting" - little need for that. It's not like wind generation or flodding. It's about longer term change and what the drivers are. 
+        - If they want to have some direction onf that before they put it out, they should involve some people
+        - Thrashing out ideas - lose outline in order to decide the tyepe of advert - have a discussion with partners.
+- How do we decisde the 4th mission?
+    - Lots that CEH do in flooding, drought prediction
+        - methods wise, would be interesting to think about how they apply to hydrology
+    - Not advers to a top down approach if you do it in the right way
+        - Defined priorities aligned to other funding
+        - National scake policy requirements
+        - Where do we want to focus our efforts, methods wise
+        - What else can we build on at Turing for best impact, what body of work could we build on?
+        - If we decide Net Zero is the opportunity, invote us in to have discssion to take forward opportunities which are currently being developed?
+
+### Who do think is part of the E&S community?
+- Change of approach came as the QQR
+    - This was saying Truing needs to be more of a place which hosts community, not research projects. Feels like it's not going that way
+- CEH is National Capability - we're supposed to suppoert research
+    - We've got researchers "in competition" with universities, and providing national capability - we tread that line
+        - Increasingly going down support
+        - Hard for people to know that you've got the knowledge to do this properly unless people beloive you at the cutting edge
+    - What does UKAI need from Turing?
+        - Providing fora for people to get together
+        - Brokering AI methods 
+- All the TTW stuff gets really well seen
+    - CEH was looking at AI strategy - felt they should be taking this approach
+        - Conviening that community
+        - Developing generic methods fits, but is very hard to do
+- Linking up with NERC investments in infrastructure
+    - Help inform NERC in how to develop it's data in ways which help community
+        - But these things are less sexy or have less massive research impact
+- CEH has got good links with government
+    - Didn't hear 
+    - DEFRA has a huge range of means around producing biodiversity metrics
+        - 25 year envronment plan
+        - Waht could we do to support UK environmental progrtess
+        - Understand where they are struggling, and where we have opportunities to support them.
+            - Research and operational requirements
+
+
+
+
+
+
+### What is the purpose of community?
+
+### What is your vision for the E&S community?
+
+
+
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
 # Meeting 2024-06-07
 
 ## Attendees
