@@ -30,45 +30,121 @@ description:
 
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
-
-# Meeting yyyy-mm-dd
+# Meeting 2024-06-20
 ## Attendees
+- Alejandro
+- Cass
 ## Apologies
+- none
+## Notes
+- Moved onto Deep Sensor for soil moisture
+- Deep Sensor in mission 2
+- Scivision is cross cutting but mo
+- Doing soil variables before Turing (understand importantce)
+- Natalia is the domain expert
+    - UKCEH difficult to have chats
+        - Gave feedback
+        - They sent data
+        - But they didn't feel involved in the DS community as the WS
+        - (Tom Anderson)
+        - They weren't familiar with the open source
+        - Deep Sensor still needs a RCM
+    - Easier to work togeether with Natalia, specific use case (easy win)
+    - Have a timeline for easy win, if fails will move on to new variable
+- Easier now Deep Sensor is a package
+    - Better interoperability
+- Leadership changes
+    - Have been really disruptive
+    - There has been no onboarding
+    - Too assertive in certain comments
+    - Focusing too much on research, reputation of our AI
+    - We don't have the budget of DeepMind
+    - Partnerships with new instutions, but foregtting that there are other ways to make impact
+    - Not supportive of other research outputs
+    - Only met him a few times
+    - EDS Book "Community projects are difficult to maintain"
+    - Only things which feature in the missions are things which can feature in the top AI conferences
+    - There are other spaces that we know Turing is making impart
+        - "Why is Scott not supporting us in this conversation?"
+        - "Scott has been one of the greatest line managers I have had so far."
+- With Marc, we need to understand what he wants in the short term, and help him with that
+    - That's how we'll show him that we have a role and our value
+    - Visiting lectures don't need to be in person
+- ==Is he familiar with reading groups?==
+    - remote-sensing
+    - graph neural networks 
+    - nlpreadinggroups
+        - They meet in-person
+    - ==Cass: Collate a list of current activities==
+- Onboarding
+    - pathways of researcher, leader
+    - [TTW](https://book.the-turing-way.org/index.html#different-pathways)
+- Our vision is for a national community
+    - Turing is not going to lead on everything (e.g. BAS - Turing is not going to start from scratch on BAS-type work)
+        - We should be supporting those researchers with the capacity we have
+            - Research Infrastrurute roles
+                - REG and RAMs have been long term relationships
+                - Communication between researchers in both sides
+                - We are familiar with how Turing works, and what these roles do
+                - We know how to grow a team with people other than just researchers
+                - TPS models
+                - Researchers are just focusing on research. They don't know how well it works with the infrastructure roles
+                    - ==include RIR triangle in stratagy==
+                - Turing does not collect data - we have to collaborate withthose who do - they have that power and the domain expertise
+                - Making research more user-oriented
+                    - TPS we think from the outset about how to make a research output available and useful to as many people as possible. 
+                - We are never going to replace the research centres, we have to know how to work with them
+- Theory of change has been another failure
+    - That should have been our plan for impact
+
+
+
+
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+
+# Meeting 2024-06-19
+## Attendees
+- Cass
+- Matt Fry
+
+## Apologies
+- none
 ## Notes
 - Hard to know how we're (CEH) fitting into things
 - Feel like we've been less involved in the discussions around the GC
 - Aim was to provide some steer
 - Turing Fellow, but not involved in any discussion about anything
-- Was not ht ecase before - felt like I was ingaged
+- Was not the case before - felt like I was engaged
     - Interviewing
     - Turing fellow reviews
-    - Doing my bit, helping Turing get where it want's to go 
+    - Doing my bit, helping Turing get where it want's to go ()
 - GC discussion
     - approach was: ASG Jon didn't claim knowledge of the environmental area
     - Scott worked with the partner insitutes, becasuwe we have access to data, knowledge of the broad research requirement, capacity for data science and partnership increasing capacity/skills, linked with methods dev. Our own funding to take forward.
     - Matt as key contact, but doens't have muich knowledge of biodiveristy
-    - Massive amount of activity in BD - National monitoring and capability, a lot of AI work (AMBER = CEH)
-    - Rationalle - partners were;nt contributing (funding, recognition) - hope that wasn't thought of us - we were putting in leg work and research => frustrating
-    - AIBDM - Matt picked up when Jon Siddorn stepped back - totally outside his interest, but did it to make things work - Post docs empliyed (Thjis), working well
-    - The plug pulled, last minute, including support we could give to Thijs - poor way to treat him - Matt put in a lot of work - Marc and Scott agreed they will carry on 
+    - Massive amount of activity in BD at CEH - National monitoring and capability, a lot of AI work (AMBER = CEH)
+    - Rationalle for ending contract - partners weren't contributing (funding, recognition) - hope that wasn't thought of us - we were putting in leg work and research => frustrating
+    - AIBDM - Matt picked up when Jon Siddorn stepped back - totally outside his interest, but did it to make things work - Post docs employed (Thjis), working well
+    - The plug pulled, last minute, including support we could give to Thijs - poor way to treat him - Matt put in a lot of work to get him set up - Marc and Scott agreed they will carry on 
     - Understand that they want to wait, but seems crazy when it was well planned and people were employed
     - Worry about how people are being treated
     - CEH money pulled - £350k pull was. a massive impact on their finances
-    - Talked about whether they should ever partner again - not a lot of trust
+    - Talked about whether they should ever partner with us again - not a lot of trust
     - Projects thrown at you last minute
     - Not felt very well planned or strategic
-    - Agreed an upade of the collaboration agreement
+    - Agreed an update of the collaboration agreement
     - No one else at Turing was looking after Thijs. Worried that Noushin would have no-one looking after their interest
 
-- How would you like the GC to be operating
+- How would you like the GC to be operating?
     - When Mission are running - plan to allow people to discuss how they can contribute
     - What we've got to offer
     - Can't just tell us what to do
-    - Knowledge of what is appropriate or not appropriate
-    - Scott and Marc don;t know about Hydrology, they should be seeking experts
+    - We have domain knowledge of what is appropriate or not appropriate
+    - Scott and Marc don't know about Hydrology, they should be seeking experts
     - Emulators might not be appropriate in this area
-    - Marc said he wan't to focus on less generic areas, more applied, and always ways to link up
-    - Needs a lot more bottum up and longer term thinking - requirements and methids in different domains, and how it can fit together (CEH work was not included)
+    - Marc said he wants to focus on less generic areas, more applied, and always ways to link up
+    - Needs a lot more bottum up and longer term thinking - requirements and methods in different domains, and how they can fit together (CEH work was not included)
 
 - What would you need in place to contribute?
     - Know where want things to go
@@ -79,28 +155,28 @@ description:
     - Biodiversity - included time for David Roy and others to be involved, and they were never asked
     - Haven't been invited to previous researcher meetings - have been now
     - Marc's short update meeting - useful to get his thoughts, but needs to be more discussion
-- Biodiversity work - said going to get someone else in to lead it - suprised that they can advertyise it with a blank slate
-    - Little need for "short to medium term forcasting" - little need for that. It's not like wind generation or flodding. It's about longer term change and what the drivers are. 
-        - If they want to have some direction onf that before they put it out, they should involve some people
-        - Thrashing out ideas - lose outline in order to decide the tyepe of advert - have a discussion with partners.
-- How do we decisde the 4th mission?
+- Biodiversity work - said going to get someone else in to lead it - suprised that they can advertise it with a blank slate
+    - Little need for "short to medium term forcasting" in biodiversity - little need for that. It's not like wind generation or flodding. It's about longer term change and what the drivers are. 
+        - If they want to have some direction on that before they put it out, they should involve some people
+        - Thrashing out ideas - lose outline in order to decide the type of advert - have a discussion with partners.
+- How do we decide the 4th mission?
     - Lots that CEH do in flooding, drought prediction
-        - methods wise, would be interesting to think about how they apply to hydrology
-    - Not advers to a top down approach if you do it in the right way
+        - methods wise, would be interesting to think about how forecasting applies to hydrology
+    - Not adverse to a top down approach if you do it in the right way
         - Defined priorities aligned to other funding
-        - National scake policy requirements
+        - National scale policy requirements
         - Where do we want to focus our efforts, methods wise
         - What else can we build on at Turing for best impact, what body of work could we build on?
-        - If we decide Net Zero is the opportunity, invote us in to have discssion to take forward opportunities which are currently being developed?
+        - If we decide Net Zero is the opportunity, invote us in to have discssion to take forward opportunities which are currently being developed.
 
-### Who do think is part of the E&S community?
-- Change of approach came as the QQR
-    - This was saying Truing needs to be more of a place which hosts community, not research projects. Feels like it's not going that way
-- CEH is National Capability - we're supposed to suppoert research
+### What is the purpose of community?
+- Change of approach came through at the same time as the QQR
+    - QQR said Turing needs to be more of a place which hosts community, not research projects. Feels like it's not going that way
+- CEH is National Capability - we're supposed to support research
     - We've got researchers "in competition" with universities, and providing national capability - we tread that line
-        - Increasingly going down support
-        - Hard for people to know that you've got the knowledge to do this properly unless people beloive you at the cutting edge
-    - What does UKAI need from Turing?
+        - Increasingly going down support route
+        - Hard for people to know that you've got the knowledge to do this properly unless people believe you're at the cutting edge
+    - What does UK-AI community need from Turing?
         - Providing fora for people to get together
         - Brokering AI methods 
 - All the TTW stuff gets really well seen
@@ -119,14 +195,9 @@ description:
             - Research and operational requirements
 
 
-
-
-
-
-### What is the purpose of community?
-
-### What is your vision for the E&S community?
-
+## Email follow-up
+- "It would really help if there were some clear descriptions of what Turing can offer around REG time, RAM time, RCM, etc. and what the conditions are (X weeks notice, at least X%FTE). There need to be clear intentions to link across programmes and therefore incentives to do it."
+    - ==Support for RCM capacity building in strategy==
 
 
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
