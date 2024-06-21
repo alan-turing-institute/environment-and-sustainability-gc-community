@@ -39,15 +39,15 @@ description:
 ## Notes
 - Moved onto Deep Sensor for soil moisture
 - Deep Sensor in mission 2
-- Scivision is cross cutting but mo
-- Doing soil variables before Turing (understand importantce)
+- Scivision is cross cutting but no programme allocation
+- Doing soil variables before Turing (understand importance from previous work)
 - Natalia is the domain expert
     - UKCEH difficult to have chats
         - Gave feedback
         - They sent data
-        - But they didn't feel involved in the DS community as the WS
+        - But they didn't feel involved in the DS community in the EPSRC work stream
         - (Tom Anderson)
-        - They weren't familiar with the open source
+        - They weren't as familiar with the open source
         - Deep Sensor still needs a RCM
     - Easier to work togeether with Natalia, specific use case (easy win)
     - Have a timeline for easy win, if fails will move on to new variable
@@ -56,28 +56,28 @@ description:
 - Leadership changes
     - Have been really disruptive
     - There has been no onboarding
-    - Too assertive in certain comments
+    - Strongly Assertive in certain comments
     - Focusing too much on research, reputation of our AI
     - We don't have the budget of DeepMind
     - Partnerships with new instutions, but foregtting that there are other ways to make impact
-    - Not supportive of other research outputs
+    - Narrow focus on tradional research outputs
     - Only met him a few times
-    - EDS Book "Community projects are difficult to maintain"
-    - Only things which feature in the missions are things which can feature in the top AI conferences
+    - EDS Book: "Community projects are difficult to maintain" - Cass notes "when they aren't apprioreately resourced"
+    - Things which feature in the missions are only things which can feature in the top AI conferences
     - There are other spaces that we know Turing is making impart
-        - "Why is Scott not supporting us in this conversation?"
+        - Would like to see Scott supporting us in this conversation
         - "Scott has been one of the greatest line managers I have had so far."
-- With Marc, we need to understand what he wants in the short term, and help him with that
+- We need to understand what leadership want in the short term, and help with that
     - That's how we'll show him that we have a role and our value
     - Visiting lectures don't need to be in person
-- ==Is he familiar with reading groups?==
+- ==Is Marc familiar with reading groups?==
     - remote-sensing
     - graph neural networks 
     - nlpreadinggroups
         - They meet in-person
     - ==Cass: Collate a list of current activities==
 - Onboarding
-    - pathways of researcher, leader
+    - pathways for researcher, leader, etc.
     - [TTW](https://book.the-turing-way.org/index.html#different-pathways)
 - Our vision is for a national community
     - Turing is not going to lead on everything (e.g. BAS - Turing is not going to start from scratch on BAS-type work)
@@ -90,9 +90,9 @@ description:
                 - TPS models
                 - Researchers are just focusing on research. They don't know how well it works with the infrastructure roles
                     - ==include RIR triangle in stratagy==
-                - Turing does not collect data - we have to collaborate withthose who do - they have that power and the domain expertise
+                - Turing does not collect data - we have to collaborate with those who do - they have that power and the domain expertise
                 - Making research more user-oriented
-                    - TPS we think from the outset about how to make a research output available and useful to as many people as possible. 
+                    - in TPS we think from the outset about how to make a research output available and useful to as many people as possible. 
                 - We are never going to replace the research centres, we have to know how to work with them
 - Theory of change has been another failure
     - That should have been our plan for impact
@@ -118,7 +118,7 @@ description:
 - Was not the case before - felt like I was engaged
     - Interviewing
     - Turing fellow reviews
-    - Doing my bit, helping Turing get where it want's to go ()
+    - Doing my bit, helping Turing get where it want's to go
 - GC discussion
     - approach was: ASG Jon didn't claim knowledge of the environmental area
     - Scott worked with the partner insitutes, becasuwe we have access to data, knowledge of the broad research requirement, capacity for data science and partnership increasing capacity/skills, linked with methods dev. Our own funding to take forward.
@@ -262,6 +262,12 @@ description:
         - Spend time thinking about what to do, rather than doing
         - overlap
         - demotiviating - not contrbuting in a meaningful way to the work you're doing
+
+### Follow-up (slack)
+- "following up RE: snark hunts — I did a lil survey of REG and couldn't find any particular examples of concrete actions taken as a result (which is great, because that will help us improve our process!), but just wanted to make sure you knew I didn't forget!!"
+- "there are transcripts with useful comments in them, but I think we probably need to condense things into concrete + actionable points in future"
+- "I am getting multiple reports that the main benefit is more cathartic in that moment for the people who are venting about their project woes :). and folding back the lessons into team culture is more of an added bonus!"
+
 
 <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 
