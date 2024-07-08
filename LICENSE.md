@@ -2,7 +2,7 @@
 
 Copyright Notice: Copyright (c) 2023 The Alan Turing Institute
 
-The Envirnoment and Sustainability Grand Challenge Community makes all of our materials publicly available under open source licenses.
+The Environment and Sustainability Grand Challenge Community makes all of our materials publicly available under open source licenses.
 
 The process documents and data are made available under a CC-BY license.
 Software are made available under an MIT license.
