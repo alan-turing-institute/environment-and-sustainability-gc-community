@@ -27,9 +27,8 @@ Such a strategy will enable the GC programme to connect with the right people at
 ## GC Mission, vision and values
 - Mission of the GC to "harness knowledge to best effect [...] maximise the usefulness of our existing observations [...] leverage solutions and ideas seamlessly from across disciplines [...] bridge and integrate data and deploy solutions in a timely manner to help secure our planet for future generations." ([Turing E&S GC website](https://www.turing.ac.uk/research/environment-and-sustainability)) <mark>note this mission need to be stated more explictly on the website and our materials</mark>
 
-
 ## Strategy framework
-The community strategy is a set of principles which will guide decision making and resource allocation within the GC. Development of the strategy and strategic implementation plan will follow the below framework:
+The community strategy is a set of principles which can be used to guide decision making and resource allocation within the GC. Development of the strategy and strategic implementation plan will follow the below framework:
 1. **Diagnosis** - Understanding the baseline and the unique value proposition of the community. This phase will also uncover and develope measurable features of the community which can later be used to understand the efficacy of the strategy; 
 2. **Design** - Developing a mission and vision for the community aligned with the mission of the GC. The community mission, vision and values should be co-designed with, and well understood by, the GC community and delivery team;
 3. **Execute** - Develop high-level initiatives and specific measureable actions which will help move the community towards achieving the mission and visions, in alignment with the values; 
@@ -39,22 +38,59 @@ The following documents our progress in developing the strategy against this fra
 
 ## Diagnosis - Baseline at the start of the GC
 ### Composition of the community 
-The E&S GC community was broadly considered to be comprised of:
-1. Turing employees engaged in research relevant to E&S
-2. Researchers (and their employers) at our partner institutes engaged in research relevant to E&S
-3. Individuals (and their employers) on the Turing Environment and Sustainability Interest Group (TIG) Mailing list
-4. Individuals (and their employers) on the Turing Environment and Sustainability Slack workspace
+The E&S GC community broadly consists of the following stakeholder groups:
+1. Researchers employed (not all 1.0 FTE) at Turing to conduct or facilitate E&S research activity
+2. Individuals who have signalled interest in Turing E&S activities, either by joining the mailing list, slack, or both. Includes Turing Fellows. 
+3. Employers or groups otherwise affiliated with the above:
+    - Research institutes;
+    - Public sector or Government bodies
+    - Private industry
+    - Nonprofits
+    - Consortiums
 
 At 1st January 2024, there were ~400 people on TIG the mailing list and ~600 on slack, but no estimate of overlap or understanding in relation to clusters of interest. Hence there was no accurate way to baseline the community or understand the efficacy of any community strategy (for example to grow or engage with researchers). 
 
-**<u>Value Proposition 1</u>: We should collate the disperate groups of stakeholders in a national programme data science for environment and sustainability into a unified structure and map. In line with the [guiding principles of the Research Community Management (RCM) team](https://github.com/alan-turing-institute/open-research-community-management/?tab=readme-ov-file#rcm-teams-guiding-principles), this map should be published and dissemainated so the community can understand the context in which they are operating and improve the visibilty of their projects to support impact. Importantly, this collation should include potential contributors to the Community of Use for research outputs (such as Private and Public sector organisations) which can act as valuable partners in growing the impact of this work, as facilitated by the [Research Application Management (RAM) team](https://github.com/alan-turing-institute/research-application-management).**
+In January-March 2024, frameworks were developed to collate stakeholders and their projects and present them in an actionable and communicable format. Projects were included as this is a primary means to identify collaboration, opportunities and routes to disseminate best practice.
+![kumu-stakeholder-map-public-202407](../assets/images/kumu-public-20240715.png)
 
 
-
-### Community personas
+### Community needs
 We need to understand the priorities of our community, what they care about and what infrastructure we can develop to support and facilitate their success. We also need to understand areas where the E&S GC can provide additionality and plug gaps, to further the growth of this ecosystem.
 
-To do this, we need to know who the community are and what messaging and processes we should use to engage with them. This understanding can be built from [community personas and associated contributor pathways](https://the-turing-way.netlify.app/project-design/persona/persona-contributors.html). The personas can describe different levels of skill and experience with research which contributes to the mission of the GC and community. At the start of the GC, there were no documented community personas, and hence no structured way to build engagement activities for the varied community members.
+#### Method
+To do this, we need to know who the community are and what messaging and processes we should use to engage with them. This understanding can be built using formal qualitative analysis. A suitable methodology for a new community such as this is [Grounded Theory](https://en.wikipedia.org/wiki/Grounded_theory) development and analysis of 1-2-1 interviews, with interview questions guided by the mission of the GC to "advance world-class research and apply to real world problems".
+
+The following interview questions were devised over the course of four interviews with researchers and Turing Fellows. The final (AOB) question was included for all participants to ensure that they had an opportunity to share any interest, issues or concerns which were pertinent to them.
+
+1. What is the purpose of community?
+2. What is your vision for E&S GC community (North Star)?
+3. What would you need in place to contribute (in both directions), or what would stop you contributing?
+4. What is impact?
+5. How could this community accelerate your impact?
+6. What is a priority concern/blocker for you in delivering impact in the E&S space?
+7. Any questions you would have liked me to ask? (AOB)
+
+A further 38 individuals were then invited to attend a one-to-one interview with the composition selected to cover the diversity of stakeholder groups and contributor types. As of 12th July 2024, 14 interviews have been completed and analysed for themes emerging under each question. 
+
+#### Results
+A record of [invited and interviewed participants is available to Turing staff here](https://thealanturininstitute-my.sharepoint.com/:x:/g/personal/cgouldvanpraag_turing_ac_uk/EWrKCeTtSQxDrwqnozsQLd8BT_lV4VESRhV-ZPp9vzKJNQ?e=M0HFNi).
+
+[Notes capturing the content of the interview discussion is available to the GC team here](https://github.com/alan-turing-institute/environment-and-sustainability-gc-team/blob/main/meeting-notes/meeting-community-strategy-121.md).
+
+#### Analysis
+[Interview summaries and identified themes are available to Turing members here](https://thealanturininstitute-my.sharepoint.com/:x:/g/personal/cgouldvanpraag_turing_ac_uk/ER7_9YLhYtJNoxfRSW37fVQBUdW8L7pi0EixGGNn58GHqA?e=rl1cYX), coded with the participant stakeholder group and mountain of engagement level. Data are formatted for import to Kumu to create the visualisation. 
+
+Themes identified are shown below in map and histogram form with frequency of occurrences of each theme over all interivews.  Note in formal Grounded Theory analysis, data collection would continue until the themes are saturated, i.e. new themes are not identified through further interviews. Themes seem to be approaching saturation after 14 interviews, however, further diversification of the sample population may and cover additional priorities and further inference may be made about the degree of priority for each theme based on the number of interviews it appears in.
+
+![community-needs-map](../assets/images/community-needs-map.png)
+
+
+![community-needs-histogram](../assets/images/community-needs-histo.png)
+
+
+
+
+
 
 
 ### Community health
