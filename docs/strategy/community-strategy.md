@@ -25,7 +25,9 @@ Such a strategy will enable the GC programme to connect with the right people at
 
 
 ## GC Mission, vision and values
-- Mission of the GC to "harness knowledge to best effect [...] maximise the usefulness of our existing observations [...] leverage solutions and ideas seamlessly from across disciplines [...] bridge and integrate data and deploy solutions in a timely manner to help secure our planet for future generations." ([Turing E&S GC website](https://www.turing.ac.uk/research/environment-and-sustainability)) <mark>note this mission need to be stated more explictly on the website and our materials</mark>
+- Mission of the GC to "integrate data and deploy solutions in a timely manner to help secure our planet for future generations." ([Turing E&S GC website](https://www.turing.ac.uk/research/environment-and-sustainability)) <mark>note this mission need to be stated more explictly on the website and our materials</mark>.
+
+</mark>Working mission: "advance world-class research and apply to real world problems".</mark>
 
 ## Strategy framework
 The community strategy is a set of principles which can be used to guide decision making and resource allocation within the GC. Development of the strategy and strategic implementation plan will follow the below framework:
@@ -50,9 +52,19 @@ The E&S GC community broadly consists of the following stakeholder groups:
 
 At 1st January 2024, there were ~400 people on TIG the mailing list and ~600 on slack, but no estimate of overlap or understanding in relation to clusters of interest. Hence there was no accurate way to baseline the community or understand the efficacy of any community strategy (for example to grow or engage with researchers). 
 
-In January-March 2024, frameworks were developed to collate stakeholders and their projects and present them in an actionable and communicable format. Projects were included as this is a primary means to identify collaboration, opportunities and routes to disseminate best practice.
-![kumu-stakeholder-map-public-202407](../assets/images/kumu-public-20240715.png)
+In January-March 2024, frameworks were developed to collate stakeholders and their projects and present them in an actionable and communicable format (figure 1). Projects were included as this is a primary means to identify collaboration, opportunities and routes to disseminate best practice.
 
+![kumu-stakeholder-map-public-202407](../assets/images/kumu-public-20240715.png)
+Figure 1. Stakeholder map
+
+### Community health
+At the start of the GC, there was no framework for measuring community health. 
+
+In the RCM team, we consider "commmunity health" to cover factors such as number of members, engagement level, degree of contribution and trust within the community. We can also consider factors such as community-initiated collaboration or organisation into interest groups as indicators of autonomy (self-organising to serve the interests of the community) and sustainability of the community. These factors are considered and against the a "mountain of engagement" model, developed by Mozilla and shared via [Open Life Sciences](https://openlifesci.org). 
+
+![mountain of engagement](../assets/images/moe.png)
+
+We can also undertake formal Social Network Analysis using kumu <mark>add detail about kumu analysis metrics</mark>
 
 ### Community needs
 We need to understand the priorities of our community, what they care about and what infrastructure we can develop to support and facilitate their success. We also need to understand areas where the E&S GC can provide additionality and plug gaps, to further the growth of this ecosystem.
@@ -77,15 +89,59 @@ A record of [invited and interviewed participants is available to Turing staff h
 
 [Notes capturing the content of the interview discussion is available to the GC team here](https://github.com/alan-turing-institute/environment-and-sustainability-gc-team/blob/main/meeting-notes/meeting-community-strategy-121.md).
 
-#### Analysis
 [Interview summaries and identified themes are available to Turing members here](https://thealanturininstitute-my.sharepoint.com/:x:/g/personal/cgouldvanpraag_turing_ac_uk/ER7_9YLhYtJNoxfRSW37fVQBUdW8L7pi0EixGGNn58GHqA?e=rl1cYX), coded with the participant stakeholder group and mountain of engagement level. Data are formatted for import to Kumu to create the visualisation. 
 
-Themes identified are shown below in map and histogram form with frequency of occurrences of each theme over all interivews.  Note in formal Grounded Theory analysis, data collection would continue until the themes are saturated, i.e. new themes are not identified through further interviews. Themes seem to be approaching saturation after 14 interviews, however, further diversification of the sample population may and cover additional priorities and further inference may be made about the degree of priority for each theme based on the number of interviews it appears in.
+Themes identified are shown below in map (figure 2) and histogram form (figure 3) with frequency of occurrences of each theme over all interivews.  Note in formal Grounded Theory analysis, data collection would continue until the themes are saturated, i.e. new themes are not identified through further interviews. Themes seem to be approaching saturation after 14 interviews, however, further diversification of the sample population may and cover additional priorities and further inference may be made about the degree of priority for each theme based on the frequency of appearance, potentially grouped by stakeholder type or mountain of engagement level.
 
 ![community-needs-map](../assets/images/community-needs-map.png)
+Figure 2. Map of themes in community needs identified in interview <mark>Turing members can Cass for access to live version of this map. Requires free kumu account.</mark>
 
 
 ![community-needs-histogram](../assets/images/community-needs-histo.png)
+Figure 3. Plot of the frequency each theme appeared in interview.
+
+#### Analysis
+Below are the most frequently appearing themes under each question. 
+
+##### Purpose of community
+<mark>This is how we market the community</mark>
+- collaboration
+- power
+- inclusive culture
+- varied perspectives
+
+
+##### Vision for community
+<mark>This is what we look to achieve. This is measured baseline and post activities.</mark>
+- foster collaboration (how: RCM training - <mark>Y1</mark>)
+- cross disciplinary (how: seminar series and other content - <mark>Y1</mark>)
+- ways for people to contrubute to the roadmap (show people that we have listened)
+- inclusivity (EDI) (how: values - <mark>Y1</mark>)
+- understand eachother (how: stakeholder map; seminar series etc. "know what others are doing", "know the importance of eachothers work" - <mark>Y1</mark>)
+- transparency (how: open source - <mark>Y1</mark>)
+- user engagement (how: RAM training)
+
+
+##### Requirements for contribution
+<mark>This is how we deliver our activities</mark>
+- shared understanding (transparency about stuff)
+- engagement access (make our events accessible)
+- engagement opportunity communication (make sure we prioritise effective communicate about our activities - this will need resourcing)
+- Return on investment (make it low lift or high return)
+- discussion space (engineer valuable conversation, inc big goals)
+
+
+##### Impact the community want to make
+<mark>These are mostly for RAMs to think about.</mark>
+
+##### Accellerating and blocking impact
+- making connections (measure on the SHM, shared events etc.)
+- user centric design and connecting to users (RAM)
+- connection sustainability (partnerships)
+
+##### AOB
+- want to contribute (how: timely delivery of engagement activities; open leadership in engagement activities)
+- concerns - disruptive changes and learning from our mistakes (for Marc to address)
 
 
 
@@ -93,12 +149,12 @@ Themes identified are shown below in map and histogram form with frequency of oc
 
 
 
-### Community health
-At the start of the GC, there was no framework for measuring community health. 
 
-In the RCM team, we consider "commmunity health" to cover factors such as engagement level, degree of contribution and trust within the community. We can also consider factors such as community-initiated collaboration or organisation into interest groups as indicators of autonomy (self-organising to serve the interests of the community) and sustainability of the community. These factors are considered and against the a "mountain of engagement" model, developed by Mozilla and shared via [Open Life Sciences](https://openlifesci.org). 
 
-![mountain of engagement](../assets/images/moe.png)
+
+
+
+
 
 ## Design 
 ### Community Mission, vision and values
