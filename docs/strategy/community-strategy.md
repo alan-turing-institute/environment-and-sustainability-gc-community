@@ -113,13 +113,13 @@ Below are the most frequently appearing themes under each question.
 
 ##### Vision for community
 <mark>This is what we look to achieve. This is measured baseline and post activities.</mark>
-- foster collaboration (how: RCM training - <mark>Y1</mark>)
+- foster collaboration (how: RCM training - <mark>Y1/2</mark>)
 - cross disciplinary (how: seminar series and other content - <mark>Y1</mark>)
-- ways for people to contrubute to the roadmap (show people that we have listened)
+- ways for people to contrubute to the roadmap (show people that we have listened via this work)
 - inclusivity (EDI) (how: values - <mark>Y1</mark>)
 - understand eachother (how: stakeholder map; seminar series etc. "know what others are doing", "know the importance of eachothers work" - <mark>Y1</mark>)
 - transparency (how: open source - <mark>Y1</mark>)
-- user engagement (how: RAM training)
+- user engagement (how: RAM training, impact framework)
 
 
 ##### Requirements for contribution
@@ -127,7 +127,7 @@ Below are the most frequently appearing themes under each question.
 - shared understanding (transparency about stuff)
 - engagement access (make our events accessible)
 - engagement opportunity communication (make sure we prioritise effective communicate about our activities - this will need resourcing)
-- Return on investment (make it low lift or high return)
+- Return on investment (make it low lift or high return; culture change - support, reward, celebrate)
 - discussion space (engineer valuable conversation, inc big goals)
 
 
@@ -142,82 +142,3 @@ Below are the most frequently appearing themes under each question.
 ##### AOB
 - want to contribute (how: timely delivery of engagement activities; open leadership in engagement activities)
 - concerns - disruptive changes and learning from our mistakes (for Marc to address)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Design 
-### Community Mission, vision and values
-- The focus should be on fostering high-performance collaboration to hasten progress towards the GC mission
-- RCM values for effective collaboration: Transparency, Leadership, Inclusivity, Respect, Trust, Integrity
-- TTW mission: reproducible, ethical and collaborative data science
-- Culture change: Support, reward, celebrate
-
-### Execute (initiatives)
-### Stakeholder map
-We believe building and maintaining an accurate map of stakeholders in this work will support operational delivery of the missions, and 
-
-Our first efforts have been to capture and collate members of the groups outlined above into a single database. This has been achieved through building a stakeholder map, visualised using [kumu](https://kumu.io/). See [Stakeholder mapping](../stakeholder-mapping/) for details of this process. 
-
-Our [public stakholder map](https://cassgvp.kumu.io/alan-turing-institute-environment-and-sustainability) is now live. 
-
-![Turing E&S Stakeholder Map, with examples of the questions we can ask using this data](../assets/images/kumu-public-presentation-cover.png)
-
-<mark>Embedded map</mark>
-<iframe src="https://embed.kumu.io/9fb9ba9e6054846cf1ecbbf76be4a978" width="940" height="600" frameborder="0"></iframe>
-
-
-
-### Community personas
-
-### Facilitating engagement 
-There is a significant amount of activity
-
-#### Comms, visibility and networking
-- Advocacy (internal, from the delivery team, from the community)
-- Community calls (building awarenss of eachothers activities)
-    - Community story
-    - SIG calls and topics
-    - Research project presentations
-- Slack and [slack round-up](../slack/round-up-archive.md)
-- Structured networking (e.g. donut calls)
-
-
-#### E&S events calendar
-- Modelled on [Open Research Calendar](http://openresearchcalendar.org/)
-
-
-### Promote and facilitate community organising
-- Special interest groups following [process documented by CSCCE](https://www.cscce.org/community/sigs/), inc supporting community events
-- Facilitating engagement with GC strategy (devising missions and prioroty areas) - remember we are a national *conviening* body
-
-
-
-### Facilitating collaboration 
-- The route to developing and sharing best practice
-- Ways of working to promote trust and transparency, 
-    - including for the delivery team so there is consistency in engagement processes
-- Facilitating interoperability (TWINE Environmental DT interoperability workshop with MAS-DT)
-- IMFe, e.g. asset register
-
-### Capacity building
-
-#### Managing E&S projects as communities
-- Reworking and supporting a cohort of ambassadors through [Foundational Community Building](https://malvikasharan.github.io/community-building-foundational-training/)
-
-#### Open research
-- Facilitating engagement with [The Turing Way](http://the-turing-way.netlify.app/)
-- Building and reviewing reproducible research artefacts 
-    - [Climate Informatics 2024 artefact evaluation](https://github.com/alan-turing-institute/climate-informatics-2024-ae), inc adoption by CUP Environmental Data Science journal.
-    - CI2025-AE training pre-meeting
-- Engagement and promotion of [EDS Book](http://edsbook.org/)
