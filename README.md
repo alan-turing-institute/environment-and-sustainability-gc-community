@@ -1,5 +1,7 @@
 # Environment and Sustainability Grand Challenge - Community Repo
 
+<mark>This material is shared as a work in progress. Some material may be missing or under review. Please  [contact the E&S Senior Research Community Manager](./CONTRIBUTING.md) if you have questions about reuse or contribution.</mark>
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11167969.svg)](https://doi.org/10.5281/zenodo.11167969)
 
 Welcome to the Community repo for the Turing Environment and Sustainability Grand Challenge (E&S GC). This repository contains open materials developed by and for the E&S GC. We invite you to review our activities and contribute where you can!
