@@ -74,6 +74,8 @@ We need to understand the priorities of our community, what they care about and 
 #### Method
 To do this, we need to know who the community are and what messaging and processes we should use to engage with them. This understanding can be built using formal qualitative analysis. A suitable methodology for a new community such as this is [Grounded Theory](https://en.wikipedia.org/wiki/Grounded_theory) development and analysis of 1-2-1 interviews, with interview questions guided by the mission of the GC to "advance world-class research and apply to real world problems".
 
+![adapted grounded theory schamatic](../assets/images/community-interivew-method.png)
+
 The following interview questions were devised over the course of four interviews with researchers and Turing Fellows. The final (AOB) question was included for all participants to ensure that they had an opportunity to share any interest, issues or concerns which were pertinent to them.
 
 1. What is the purpose of community?
