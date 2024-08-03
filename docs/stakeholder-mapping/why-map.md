@@ -1,5 +1,7 @@
 # Why we map stakeholders
 
+<mark>*** All material in this repository is shared as a work in progress. Some material may be missing, under review, or no longer in scope. Please  [contact the E&S Senior Research Community Manager](./CONTRIBUTING.md) if you have questions about reuse or contribution. *** </mark>
+
 This file documents the development of stakeholder mapping for the Turing Environment and Sustainability Grand Challenge (E&S GC).
 
 ## What are we trying to achieve?

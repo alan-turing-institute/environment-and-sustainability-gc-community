@@ -1,5 +1,7 @@
 # How we map stakeholders
 
+<mark>*** All material in this repository is shared as a work in progress. Some material may be missing, under review, or no longer in scope. Please  [contact the E&S Senior Research Community Manager](./CONTRIBUTING.md) if you have questions about reuse or contribution. *** </mark>
+
 ## Aim
 To have a comprehensive list and map of E&S GC stakeholders covering indviduals, projects and organisations which are revant to the missions of the E&S GC. 
 
