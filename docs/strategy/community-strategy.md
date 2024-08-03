@@ -1,5 +1,7 @@
 # E&S Community Strategy
 
+<mark>*** All material in this repository is shared as a work in progress. Some material may be missing, under review, or no longer in scope. Please  [contact the E&S Senior Research Community Manager](./CONTRIBUTING.md) if you have questions about reuse or contribution. *** </mark>
+
 <!-- ## Objective: Community strategy
 ### Category: Reinforcing the role of the Institute as a national body in the UK and International landscape
 ### Target date: 28th June

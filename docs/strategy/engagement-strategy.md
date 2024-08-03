@@ -1,6 +1,8 @@
 # E&S Engagement Strategy
 
-## Marc's objectives
+<mark>*** All material in this repository is shared as a work in progress. Some material may be missing, under review, or no longer in scope. Please  [contact the E&S Senior Research Community Manager](./CONTRIBUTING.md) if you have questions about reuse or contribution. *** </mark>
+
+## Objectives
 - Seminar series (monthly)
 - comms
 - Foster a sense of community and ensure activities are aligned with GC priorities for:
