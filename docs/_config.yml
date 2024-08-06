@@ -28,5 +28,6 @@ repository:
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
+  announcement: "<div>⚠️ All material in this repository is shared as a work in progress. Some material may be missing, under review, or no longer in scope.</div> <div> Please contact the E&S Senior Research Community Manager if you have questions about reuse or contribution. ⚠️</div>"
   use_issues_button: true
   use_repository_button: true
